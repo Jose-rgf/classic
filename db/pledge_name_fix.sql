@@ -9,6 +9,7 @@ SELECT * FROM clan_data WHERE clan_name LIKE '% %' AND replace(clan_name, ' ',''
 # UPDATE clan_data SET clan_name = 'new name' WHERE clan_name = 'old name';
 
 # Once any conflicts have been resolved, run the queries below
-#UPDATE clan_warehouse SET clan_name = replace(clan_name,' ','');
+#UPD
+ATE clan_warehouse SET clan_name = replace(clan_name,' ','');
 #UPDATE characters SET Clanname = replace(Clanname,' ','');
 #UPDATE clan_data SET clan_name = replace(clan_name,' ','');
